@@ -1,9 +1,0 @@
-1.拉取wxg1015/pikpakbot:latest
-2.然后编辑config.py进行配置并保存
-3.将code目录复制到宿主机某路径下
-4.ssh执行以下：
-docker run \
-  --name=pikpakbot \
-  --restart=always \
-  -d -v /填写code目录路径:/code \
-  wxg1015/pikpakbot:latest
