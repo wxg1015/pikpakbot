@@ -1,5 +1,6 @@
 # wxg1015-pikpakbot
 docker部署：
+
 1.web拉取wxg1015/pikpakbot:latest 或者ssh运行docker pull wxg1015/pikpakbot:latest
 
 2.下载库里的所有文件并解压放进code文件夹下然后编辑config.py进行配置并保存
