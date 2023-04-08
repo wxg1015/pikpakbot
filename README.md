@@ -1,4 +1,4 @@
-# wxg1015-pikpakbot
+#  大佬的项目：https://github.com/CJReinforce/PikPakAutoOfflineDownloadBot 用法也在这里看！！！！！
 docker部署：
 
 1.web拉取wxg1015/pikpakbot:latest 或者ssh运行docker pull wxg1015/pikpakbot:latest
@@ -15,6 +15,5 @@ docker run \
   -d -v /路径/code:/code \
   wxg1015/pikpakbot:latest
   
- 用法请看：https://github.com/CJReinforce/PikPakAutoOfflineDownloadBot
  
  写在最后：感谢CJReinforce大佬写的这个超好用的电报pikpak全自动机器人工具，我这里只是根据教程构建了镜像并上传至dockerhub外加写了个简易部署教程以方便大家，大神请无视·····
